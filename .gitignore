@@ -1,0 +1,14 @@
+# datasets & archives
+garbage_data/
+*.tar.gz
+
+# models & outputs
+best_model.pth
+slurm_*.out
+
+# python junk
+__pycache__/
+*.pyc
+venvs/
+
+
