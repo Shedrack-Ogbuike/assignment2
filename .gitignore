@@ -10,5 +10,6 @@ slurm_*.out
 __pycache__/
 *.pyc
 venvs/
-
+Lawrencium_X/
+TL/
 
