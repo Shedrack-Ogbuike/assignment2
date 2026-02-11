@@ -260,7 +260,7 @@ def train_model(model, loaders, criterion, optimizer, epochs, device, save_path)
             if phase == "val" and epoch_acc > best_acc:
                 best_acc = epoch_acc
                 torch.save(model.state_dict(), save_path)
-                print(f"✅ Saved best model: {save_path} (val acc={best_acc:.4f})")
+                print(f" Saved best model: {save_path} (val acc={best_acc:.4f})")
 
     return history
 
@@ -277,7 +277,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 MODEL_PATH = os.path.join(OUT_DIR, "best_model.pth")
 # Resume if checkpoint exists
 if os.path.exists(MODEL_PATH):
-    print("🔁 Resuming from:", MODEL_PATH)
+    print(" Resuming from:", MODEL_PATH)
     model.load_state_dict(torch.load(MODEL_PATH, map_location=device))
 history = train_model(model, dataloaders, criterion, optimizer, epochs=8,
                       device=device, save_path=MODEL_PATH)
@@ -406,5 +406,5 @@ csv_path = os.path.join(OUT_DIR, "test_predictions.csv")
 df.to_csv(csv_path, index=False)
 print("Saved predictions CSV:", csv_path)
 
-print("\n✅ DONE. Outputs saved to:", OUT_DIR)
+print("\n DONE. Outputs saved to:", OUT_DIR)
 
