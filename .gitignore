@@ -16,3 +16,4 @@ venvs/
 Lawrencium_X/
 TL/
 
+results/*.pth
