@@ -1,4 +1,7 @@
 # datasets & archives
+CVPR_2024_dataset_Train/
+CVPR_2024_dataset_Val/
+CVPR_2024_dataset_Test/
 garbage_data/
 *.tar.gz
 
