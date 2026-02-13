@@ -1,4 +1,4 @@
-# ENEL 645 – Assignment 2: Multimodal Garbage Classification
+# ENEN 645 – Assignment 2: Multimodal Garbage Classification
 
 ## Overview
 Brief description of the task and approach.
@@ -27,3 +27,4 @@ CVPR 2024 garbage dataset (not included in repo).
 
 ## Files
 Explain folder structure.
+
