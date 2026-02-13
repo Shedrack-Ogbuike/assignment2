@@ -1,8 +1,8 @@
 ### **Training Summary — ENEL 645 Assignment 2**
 
 This document summarizes the GPU-based training and evaluation of a multimodal
-garbage classification model executed on the University of Calgary **TALC**
-cluster using **Slurm**.
+garbage classification model executed on the University of Calgary TALC
+cluster using Slurm.
 
 ---
 
