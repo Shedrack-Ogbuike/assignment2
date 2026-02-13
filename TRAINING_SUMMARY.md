@@ -29,7 +29,7 @@ cluster using Slurm.
 ## **Training Progress**
 
 The model was trained for **8 epochs** using validation-based checkpointing.
-The best model was saved based on **highest validation accuracy**.
+The best model was saved based on highest validation accuracy.
 
 ### **Epoch-wise Results**
 
