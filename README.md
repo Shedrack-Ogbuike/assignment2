@@ -1,4 +1,4 @@
-# **ENEL 645 – Assignment 2: Multimodal Garbage Classification**
+# **ENEN 645 – Assignment 2: Multimodal Garbage Classification**
 
 ## **Overview**
 
@@ -84,6 +84,7 @@ assignment2/
 ├── README.md
 └── TRAINING_SUMMARY.md
 ```
+
 
 
 
