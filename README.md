@@ -85,14 +85,5 @@ assignment2/
 └── TRAINING_SUMMARY.md
 ```
 
----
-
-### ✅ Why this README scores well
-
-* No placeholders
-* Mentions **exact metrics**
-* Explains **multimodal design**
-* Clear **TALC + notebook separation**
-* Matches rubric expectations precisely
 
 
