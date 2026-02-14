@@ -13,4 +13,3 @@ echo "Running on: $(hostname)"
 nvidia-smi
 
 python /work/TALC/ensf617_2026w/src/train_multimodal.py
-
