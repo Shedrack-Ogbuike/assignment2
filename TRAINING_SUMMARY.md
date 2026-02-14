@@ -22,7 +22,7 @@ cluster using Slurm.
 * Text branch: Bag-of-Words features extracted from image filenames
 * Fusion strategy: Concatenation of image and text embeddings
 * Classifier: Fully connected multilayer perceptron
-* Number of classes: 4 (Black, Blue, Green, TTR)
+* Number of classes: 4 (Black, Blue, Green, TTR).
 
 ---
 
